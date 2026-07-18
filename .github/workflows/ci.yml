@@ -1,0 +1,17 @@
+name: Parcred CI (teste)
+
+on:
+  push:
+    branches:
+     - main
+
+jobs:
+  hellho-word:
+    runs-on: unbuntu-latest
+
+    steps:
+      - name: checkout do repositório
+        uses: actions/checkout@v4
+      
+      - name: Mensagem
+        run: echo "Olá, github actions!"
