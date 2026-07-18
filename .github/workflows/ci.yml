@@ -7,7 +7,7 @@ on:
 
 jobs:
   hellho-word:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout do repositório
